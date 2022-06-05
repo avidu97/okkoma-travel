@@ -4,7 +4,7 @@ import Link from "next/link";
 import { GraphQLClient } from "graphql-request";
 import { gql } from "graphql-request";
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const graphcms = new GraphQLClient(
     "https://api-ap-south-1.graphcms.com/v2/cl41i5arf37e101xs9dmq4usk/master"
   );
