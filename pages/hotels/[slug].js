@@ -27,7 +27,7 @@ export async function getServerSideProps() {
   };
 }
 
-export default function HotelsSingle({ hotels }) {
+export default function hotels({ hotels }) {
   console.log(hotels);
   return (
     <div>
