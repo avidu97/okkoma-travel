@@ -24,6 +24,7 @@ export async function getStaticProps() {
     props: {
       hotels,
     },
+    fallback: 'blocking'
   };
 }
 
