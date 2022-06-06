@@ -58,6 +58,7 @@ export default function hotels({ hotel }) {
           <h1>Hi this is hotels page</h1>
           <div>
             <h1>{hotel.name}</h1>
+            <p>{hotel.description}</p>
           </div>
         </div>
     </div>
