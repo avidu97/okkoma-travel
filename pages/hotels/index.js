@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { GraphQLClient } from "graphql-request";
 import { gql } from "graphql-request";
+import Link from "next/link";
 
 const graphcms = new GraphQLClient(
   "https://api-ap-south-1.graphcms.com/v2/cl41i5arf37e101xs9dmq4usk/master"
@@ -9,6 +10,7 @@ const graphcms = new GraphQLClient(
 const QUERY = gql`
   {
     hotels {
+      slug
       id
       name
     }
@@ -32,8 +34,8 @@ export default function HotelPage({ hotels }) {
       <div>
         <h1>This is the Hotel Homepage</h1>
         <ul>
-          {hotels.map(({ id, name }) => (
-            <li key={id}>{name}</li>
+          {hotels.map(({ slug, name }) => (
+            <Link href={`/hotels/${slug}`} key={slug}><a>{name}</a></Link>
           ))}
         </ul>
       </div>
