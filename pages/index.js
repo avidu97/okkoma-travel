@@ -99,38 +99,50 @@ export default function Home() {
         </div>
       </div>
       {/* _____________________________________________________________________HOTELS */}
-      <div className={styles.hotels_container}>
+      <div className={styles.hotels_main}>
         <h2>POPULAR HOTELS</h2>
-        <div className={styles.hotel}>
-          <div className={styles.hotel_image}></div>
-          <p>Hotel Name 1</p>
-          <div className={styles.hotel_tags}></div>
-        </div>
-        <div className={styles.hotel}>
-          <div className={styles.hotel_image}></div>
-          <p>Hotel Name 2</p>
-          <div className={styles.hotel_tags}></div>
-        </div>
-        <div className={styles.hotel}>
-          <div className={styles.hotel_image}></div>
-          <p>Hotel Name 3</p>
-          <div className={styles.hotel_tags}></div>
+      </div>
+      {/* ______________________________________________________________________WHY US */}
+      <div className={styles.why_main}>
+        <div className={styles.why_container}>
+          <h2>WE ARE BETTER</h2>
+          <div className={styles.why_holder}>
+            <div className={styles.why}>
+              <h3>Middleman Free Pricing</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+                ex!
+              </p>
+            </div>
+            <div className={styles.why}>
+              <h3>Experienced Professionals</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+                ex!
+              </p>
+            </div>
+            <div className={styles.why}>
+              <h3>Custom/ Specialized Tours</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+                ex!
+              </p>
+            </div>
+            <div className={styles.why}>
+              <h3>1000+ Satisfied Customers</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+                ex!
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      {/* ______________________________________________________________________PLACES */}
-      <div className={styles.places_container}>
-        <h2>POPULAR PLACES</h2>
-        <div className={styles.place}>
-          <div className={styles.place_image}></div>
-          <div className={styles.place_dsc_holder}>place 1</div>
-        </div>
-        <div className={styles.place}>
-          <div className={styles.place_image}></div>
-          <div className={styles.place_dsc_holder}>place 2</div>
-        </div>
-        <div className={styles.place}>
-          <div className={styles.place_image}></div>
-          <div className={styles.place_dsc_holder}>place 3</div>
+      {/* _______________________________________________________________EVENTS */}
+      <div className={styles.event_main}>
+        <div className={styles.event_container}>
+          <h2>UPCOMING EVENTS</h2>
+          <div className={styles.event_holder}></div>
         </div>
       </div>
       {/* ______________________________________________________________________REVIEWS */}
