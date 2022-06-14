@@ -34,21 +34,21 @@ export default function Home() {
           <div className={styles.hero_list}>
             <ul>
               <li>
-                <a href="">Lonely Planet's #1 travel destination in 2019</a>
+                <a href="">Lonely Planet #1 travel destination in 2019</a>
               </li>
               <li>
-                <a href="">Travel Triangle's #1 country to travel in 2022</a>
+                <a href="">Travel Triangle #1 country to travel in 2022</a>
               </li>
               <li>
-                <a href="">Business Insider's #13 travel destination of 2022</a>
+                <a href="">Business Insider #13 travel destination of 2022</a>
               </li>
               <li>
                 <a href="">
-                  The Unconventional Route's #2 best country to travel
+                  The Unconventional Route #2 best country to travel
                 </a>
               </li>
               <li>
-                <a href="">World Packer's #12 world safest country to travel</a>
+                <a href="">World Packer #12 world safest country to travel</a>
               </li>
             </ul>
           </div>
