@@ -21,34 +21,82 @@ export default function Home() {
           <Link href="/destinations">Destinations</Link>
         </h2>
       </div>
-      {/* ______________________________________________________________________HERO */}
-      <div className={styles.hero_container}>
-        <div className={styles.hero_heading}>
-          <h1>This is the hero title</h1>
+      {/* ____________________________________________________HERO */}
+      <div className={styles.hero_main}>
+        <div className={styles.hero_container}>
+          <div className={styles.hero_title}>
+            <h1>
+              UNSEEN - DESTINATIONS
+              <br />
+              IMPOSSIBLE - ADVENTURES
+            </h1>
+          </div>
+          <div className={styles.hero_list}>
+            <ul>
+              <li>
+                <a href="">Lonely Planet's #1 travel destination in 2019</a>
+              </li>
+              <li>
+                <a href="">Travel Triangle's #1 country to travel in 2022</a>
+              </li>
+              <li>
+                <a href="">Business Insider's #13 travel destination of 2022</a>
+              </li>
+              <li>
+                <a href="">
+                  The Unconventional Route's #2 best country to travel
+                </a>
+              </li>
+              <li>
+                <a href="">World Packer's #12 world safest country to travel</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className={styles.hero_description}>
-          <p>
-            This is the hero description, where you add all the necessary
-            details.
-          </p>
+        <div className={styles.hero_circle}>
+          <p>100% SATISFACTION GUARANTEED</p>
         </div>
       </div>
-      {/* ___________________________________________________________________SERVICES */}
-      <div className={styles.services_container}>
-        <h2>OUR SERVICES</h2>
-        <div className={styles.service}>Service 1</div>
-        <div className={styles.service}>Service 2</div>
-        <div className={styles.service}>Service 3</div>
-        <div className={styles.service}>Service 4</div>
-        <div className={styles.service}>Service 5</div>
-        <div className={styles.service}>Service 6</div>
+      {/* __________________________________________________________DESCRIPTION */}
+      <div className={styles.des_main}>
+        <div className={styles.des_container}>
+          <div className={styles.des}></div>
+          <div className={styles.des_images}></div>
+        </div>
       </div>
-      {/* ______________________________________________________________________STEPS */}
-      <div className={styles.steps_container}>
-        <h2>OUR SERVICES</h2>
-        <div className={styles.steps}>Step 1</div>
-        <div className={styles.steps}>Step 2</div>
-        <div className={styles.steps}>Step 3</div>
+      {/* __________________________________________________________TOURS */}
+      <div className={styles.tours_main}>
+        <h2>TOURS</h2>
+      </div>
+      {/* __________________________________________________________STEPS */}
+      <div className={styles.steps_main}>
+        <div className={styles.steps_container}>
+          <h2>PATH TO CEYLON</h2>
+          <div>
+            <p>STEP 1</p>
+            <ul>
+              <li>
+                <a href="">PICK A TRAVEL DESTINATION</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p>STEP 2</p>
+            <ul>
+              <li>
+                <a href="">APPLY VISA ONLINE</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p>STEP 3</p>
+            <ul>
+              <li>
+                <a href="">BOOK A FLIGHT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
       {/* _____________________________________________________________________HOTELS */}
       <div className={styles.hotels_container}>
