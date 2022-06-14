@@ -73,16 +73,16 @@ export default function Home() {
       <div className={styles.places_container}>
         <h2>POPULAR PLACES</h2>
         <div className={styles.place}>
-          <div className={place_image}></div>
-          <div className={place_dsc_holder}>place 1</div>
+          <div className={styles.place_image}></div>
+          <div className={styles.place_dsc_holder}>place 1</div>
         </div>
         <div className={styles.place}>
-          <div className={place_image}></div>
-          <div className={place_dsc_holder}>place 2</div>
+          <div className={styles.place_image}></div>
+          <div className={styles.place_dsc_holder}>place 2</div>
         </div>
         <div className={styles.place}>
-          <div className={place_image}></div>
-          <div className={place_dsc_holder}>place 3</div>
+          <div className={styles.place_image}></div>
+          <div className={styles.place_dsc_holder}>place 3</div>
         </div>
       </div>
       {/* ______________________________________________________________________REVIEWS */}
